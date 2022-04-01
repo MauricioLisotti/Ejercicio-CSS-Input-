@@ -1,0 +1,30 @@
+
+h3{
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+input { 
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input:out-of-range{
+    background-color: rosybrown;
+}
+
+input:in-range{
+    background-color: lightgreen;
+}
+
